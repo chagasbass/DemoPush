@@ -36,6 +36,7 @@ Inserir esta linha no construtor do App.cs e no mainActivity do Android
 
  Método OnStart
 
+
   protected override void OnStart()
   {
     OneSignal.Current.RegisterForPushNotifications();
