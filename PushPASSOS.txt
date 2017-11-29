@@ -13,10 +13,9 @@ inserir as informações de chave do server codigo do remetente geradas no firebas
 
 Chave do Servidor
 
-AAAAmA6-Rw4:APA91bFAk2eEDC1xa1L684KtEqWXhd4SnKX8fJGmE3UerIxhcS4uQZAcr6JrIQoQtLhWJOgLnWeaNm84PoNtUB7CYT6diohQ69y1Qrt9UjJbytPEmpszLg7DE0Nk1zhbPSKxcFaGHyER
 
 Remetente
-653082380046
+
 
 Pular os passo para escolha da plataforma.
 
@@ -24,15 +23,14 @@ Clicar em App Settings -> Keys & IDS
 para gravar as chaves de id do one signal e da api
 
 OnSignal App id 
-6f02ec21-5c85-4674-9669-2c143a1dcff9
 
 REST API Key
-MmZjYzIzOWQtZDkzNS00NDJkLThhNDgtYjg0NDQxNWM2NTIy
+
 
 ---------------------------------------------------------------------------
 Inserir esta linha no construtor do App.cs e no mainActivity do Android
 
- OneSignal.Current.StartInit("6f02ec21-5c85-4674-9669-2c143a1dcff9").EndInit();
+ OneSignal.Current.StartInit("OnSignal App id").EndInit();
 
  Método OnStart
 

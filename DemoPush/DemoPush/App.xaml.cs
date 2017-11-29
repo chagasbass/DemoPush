@@ -1,8 +1,4 @@
 ﻿using Com.OneSignal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Xamarin.Forms;
 
@@ -16,7 +12,7 @@ namespace DemoPush
 
             MainPage = new DemoPush.MainPage();
 
-            OneSignal.Current.StartInit("6f02ec21-5c85-4674-9669-2c143a1dcff9").EndInit();
+            OneSignal.Current.StartInit("OnSignal App id ").EndInit();
         }
 
         protected override void OnStart()

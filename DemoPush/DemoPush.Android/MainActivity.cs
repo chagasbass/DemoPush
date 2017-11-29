@@ -16,7 +16,7 @@ namespace DemoPush.Droid
 
             base.OnCreate(bundle);
 
-            OneSignal.Current.StartInit("6f02ec21-5c85-4674-9669-2c143a1dcff9").EndInit();
+            OneSignal.Current.StartInit("OnSignal App id ").EndInit();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
