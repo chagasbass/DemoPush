@@ -1,11 +1,8 @@
-﻿using System;
-
+﻿
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using Com.OneSignal;
 
 namespace DemoPush.Droid
 {
@@ -19,9 +16,10 @@ namespace DemoPush.Droid
 
             base.OnCreate(bundle);
 
+            OneSignal.Current.StartInit("6f02ec21-5c85-4674-9669-2c143a1dcff9").EndInit();
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
     }
 }
-

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Com.OneSignal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +15,13 @@ namespace DemoPush
             InitializeComponent();
 
             MainPage = new DemoPush.MainPage();
+
+            OneSignal.Current.StartInit("6f02ec21-5c85-4674-9669-2c143a1dcff9").EndInit();
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            OneSignal.Current.RegisterForPushNotifications();
         }
 
         protected override void OnSleep()

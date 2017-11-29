@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPush", "DemoPush\DemoPu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPush.iOS", "DemoPush\DemoPush.iOS\DemoPush.iOS.csproj", "{4890A4FD-C3CA-4168-AB58-E80FCCAF1BF6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3015F7E-D8A6-4898-88BC-AF5502A3A4DC}"
+	ProjectSection(SolutionItems) = preProject
+		PushPASSOS.txt = PushPASSOS.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
